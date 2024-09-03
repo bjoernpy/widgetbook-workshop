@@ -7,3 +7,15 @@ import 'package:widgetbook/widgetbook.dart';
 import 'package:widgetbook_annotation/widgetbook_annotation.dart';
 
 /// Add Widgetbook use-case here
+@UseCase(
+  name: 'Default',
+  type: PrimaryButton,
+  designLink:
+      'https://www.figma.com/design/HsANkdhbsCNTkXBzNJRNLD/Groceries-Demo?node-id=7225-1669&node-type=CANVAS&t=vaS2Qk1V0Q1tRtOk-0',
+)
+Widget buildPrimaryButtonUseCase(BuildContext context) {
+  return PrimaryButton(
+    content: 'Hello World Button',
+    onPressed: () {},
+  );
+}
