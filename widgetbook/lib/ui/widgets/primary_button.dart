@@ -15,7 +15,10 @@ import 'package:widgetbook_annotation/widgetbook_annotation.dart';
 )
 Widget buildPrimaryButtonUseCase(BuildContext context) {
   return PrimaryButton(
-    content: 'Hello World Button',
+    content: context.knobs.string(
+      label: 'content',
+      initialValue: 'Widgetbook Workshop',
+    ),
     onPressed: () {},
   );
 }
