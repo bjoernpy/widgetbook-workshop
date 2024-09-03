@@ -17,7 +17,7 @@ Widget buildPrimaryButtonUseCase(BuildContext context) {
   return PrimaryButton(
     content: context.knobs.string(
       label: 'content',
-      initialValue: 'Widgetbook Workshop',
+      initialValue: 'Widgetbook Workshop Button',
     ),
     onPressed: () {},
   );
